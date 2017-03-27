@@ -41,27 +41,19 @@ int main(int argc, char* argv[])
 
 		 if (pid==-1)
 		 {
-		 	perror("failed to fork");
+		 	//
 		 }
 		 else if (pid>0)
 		 {
-		 	printf("%d\n",parent );
+		 	//
 		 	
-		 	int status;
-
-		 	waitpid(pid, &status, 0);
 
 
 		 	
 		 }
 		 else
 		 {
-		 	printf("or did it ?");
-		 	
-
-		 	printf("%d\n",pid );
-
-		 	_exit(EXIT_FAILURE);
+		 	//
 		 }
 
 
